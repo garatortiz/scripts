@@ -1,12 +1,14 @@
 # scripts
 
+[![ShellCheck](https://github.com/garatortiz/scripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/garatortiz/scripts/actions/workflows/shellcheck.yml)
+[![Licencia MIT](https://img.shields.io/github/license/garatortiz/scripts)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/garatortiz/scripts)](https://github.com/garatortiz/scripts/releases/latest)
+
 Tres scripts de bash para el trabajo de todos los días.
 
 - `git-ai-commit.sh` lee lo que ya pusiste en stage y propone el mensaje de commit. No commitea hasta que lo confirmás.
 - `git-ai-pr.sh` propone el título y la descripción de la pull request, pushea la rama y la abre en GitHub o Forgejo.
 - `update_repomix.sh` junta el código de cada proyecto en un archivo de texto y lo sube a Google Drive. Usa la rama `main` del remoto, no la rama en la que estés trabajando.
-
-Licencia [MIT](LICENSE).
 
 ## Scripts
 
