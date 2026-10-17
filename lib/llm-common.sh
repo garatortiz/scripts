@@ -118,7 +118,7 @@ check_llm_ready() {
 }
 
 # --- Chequeo de archivos sensibles antes de mandar el diff al LLM ---
-# Uso: check_sensitive_files                    -> archivos en stage (gac)
+# Uso: check_sensitive_files ""                 -> archivos en stage (gac)
 #      check_sensitive_files "$file_list"       -> lista explícita (gapr)
 check_sensitive_files() {
     local file_list="${1:-}"

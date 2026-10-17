@@ -25,7 +25,7 @@ if [ -z "$DIFF" ]; then
     exit 1
 fi
 
-check_sensitive_files
+check_sensitive_files ""
 check_llm_ready
 
 # 2. Reglas de negocio/estilo
