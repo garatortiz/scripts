@@ -1,3 +1,5 @@
+![Terminal running git-ai-commit.sh next to a robot asking to confirm the commit](head_scripts.jpeg)
+
 # scripts
 
 [![ShellCheck](https://github.com/garatortiz/scripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/garatortiz/scripts/actions/workflows/shellcheck.yml)
