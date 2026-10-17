@@ -1,0 +1,11 @@
+# Copiá este archivo a config.sh y completá las rutas.
+# config.sh no se versiona.
+
+SILPH_CORE_DIR="$HOME/projects/repositories/api"
+KANTO_ROOT_DIR="$HOME/projects/repositories/monorepo"
+KANTO_APPS_DIR="$KANTO_ROOT_DIR/apps"
+DOCKER_INFRA_DIR="$HOME/projects/docker-infra"
+
+OUTPUT_DIR="$HOME/projects/reportes_repomix"
+DRIVE_FOLDER="gdrive:carpeta/Repomix"
+RCLONE_CONF="$HOME/.config/rclone/rclone.conf"
