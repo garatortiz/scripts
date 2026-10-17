@@ -1,6 +1,10 @@
 # scripts
 
-Helpers de shell para redactar commits y pull requests con un LLM, y para generar reportes [Repomix](https://github.com/yamadashy/repomix) desde `origin/main`.
+Tres scripts de bash para el trabajo de todos los días.
+
+- `git-ai-commit.sh` lee lo que ya pusiste en stage y propone el mensaje de commit. No commitea hasta que lo confirmás.
+- `git-ai-pr.sh` propone el título y la descripción de la pull request, pushea la rama y la abre en GitHub o Forgejo.
+- `update_repomix.sh` junta el código de cada proyecto en un archivo de texto y lo sube a Google Drive. Usa la rama `main` del remoto, no la rama en la que estés trabajando.
 
 Licencia [MIT](LICENSE).
 
@@ -10,7 +14,7 @@ Licencia [MIT](LICENSE).
 |--------|----------|
 | `git-ai-commit.sh` | Arma un mensaje [Conventional Commits](https://www.conventionalcommits.org/) a partir del stage y lo commitea si lo confirmás. |
 | `git-ai-pr.sh` | Arma título y cuerpo de una PR contra la rama base, pushea la rama y abre la PR en GitHub (`gh`) o Forgejo. |
-| `update_repomix.sh` | Genera un reporte por repo o app y lo sincroniza a Google Drive con rclone. |
+| `update_repomix.sh` | Empaqueta el código de `main` en un archivo de texto por proyecto y lo sube a Drive. |
 
 `lib/llm-common.sh` lo usan los dos scripts de git. No se ejecuta solo.
 
